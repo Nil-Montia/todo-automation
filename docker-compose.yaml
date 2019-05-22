@@ -20,10 +20,6 @@ services:
     ports:
     - target: 80
       published: 80
-    volumes:
-        - type: bind
-          source: ./nginx.conf
-          target: /etc/nginx/nginx.conf
     depends_on:
       - react
       - spring
