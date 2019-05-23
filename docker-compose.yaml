@@ -2,10 +2,8 @@ version: '3.7'
 services:
   react:
     image: nilmontia/react
-    build: ./doit-simple
   spring:
     image: nilmontia/spring
-    build: ./First-app-spring
   mysql:
     image: mysql:5.7
     environment:
